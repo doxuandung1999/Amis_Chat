@@ -1,0 +1,15 @@
+.union{
+    height: 768px;
+    width: 1366px;
+}
+.body_1{
+    width: 1366px;
+    height: 712px;
+    position: relative;
+}
+#right{
+    float: right;
+}
+#left{
+    float: left;
+}

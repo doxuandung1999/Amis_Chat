@@ -3,8 +3,13 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { HeaderBoxComponent } from './header-box/header-box.component';
-import { LeftBoxComponent } from './left-box/left-box.component';
+import { HeaderBoxComponent } from './box/header-box/header-box.component';
+import { LeftBoxComponent } from './box/left-box/left-box.component';
+import { BoxComponent } from './box/box.component';
+import { SignInComponent } from './sign-in/sign-in.component';
+import { SignUpComponent } from './sign-up/sign-up.component';
+import { RightBoxComponent } from './box/right-box/right-box.component';
+import { InforBoxComponent } from './box/infor-box/infor-box.component';
 
 
 @NgModule({
@@ -12,6 +17,11 @@ import { LeftBoxComponent } from './left-box/left-box.component';
     AppComponent,
     HeaderBoxComponent,
     LeftBoxComponent,
+    BoxComponent,
+    SignInComponent,
+    SignUpComponent,
+    RightBoxComponent,
+    InforBoxComponent,
     
   ],
   imports: [

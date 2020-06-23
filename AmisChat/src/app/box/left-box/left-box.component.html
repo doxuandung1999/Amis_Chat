@@ -1,0 +1,42 @@
+<div class="list">
+    <div id="head_left">
+        <div class="search">
+            <img id="icon_search" src="../../../assets/ICON/IconAppChat/4.svg" alt="">
+            <input id="text_search" type="text" placeholder="Tìm kiếm cuộc trò chuyện">
+        </div>
+        <div id="add">
+            <img id="icon_add" src="../../../assets/ICON/IconboxChat/23.svg" alt="">
+        </div>
+    </div>
+    <div class="list_friend">
+        <div id="friend" *ngFor="let word of arr">
+           <div class="p1">
+            <div id="avatar">
+                <img src="{{word.avatar}}" alt="">
+            </div>
+            <div id="status">
+                <img src="../../../assets/ICON/IconAppChat/green_sphere.svg" alt="">
+            </div>
+            <div class="content">
+                <p id="name"> {{word.name}}</p>
+                <p id="message">{{word.massage}}</p>
+            </div>
+           </div>
+           <div class="detail">
+                <div id="time">
+                    <p>{{word.time}}</p>
+                </div>
+                <div id="count-message">
+                    <p>{{word.notRep}}</p>
+                </div>
+           </div>
+            
+        </div>
+    </div>
+
+    <div class="bot-left">
+        <button id="left-button">Cuộc trò chuyện</button>
+        <button id="right-button">Danh bạ</button>
+    </div>
+</div>
+
