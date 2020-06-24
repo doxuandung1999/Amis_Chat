@@ -10,6 +10,7 @@ import { SignInComponent } from './sign-in/sign-in.component';
 import { SignUpComponent } from './sign-up/sign-up.component';
 import { RightBoxComponent } from './box/right-box/right-box.component';
 import { InforBoxComponent } from './box/infor-box/infor-box.component';
+import { TypeTextComponent } from './box/type-text/type-text.component';
 
 
 @NgModule({
@@ -22,6 +23,7 @@ import { InforBoxComponent } from './box/infor-box/infor-box.component';
     SignUpComponent,
     RightBoxComponent,
     InforBoxComponent,
+    TypeTextComponent,
     
   ],
   imports: [

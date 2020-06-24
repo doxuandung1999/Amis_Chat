@@ -12,16 +12,19 @@
 
         <div class="option">
             <img src="../../../assets/ICON/IconAppChat/4.svg" alt="">
-            <img src="../../../assets/ICON/IconAppChat/5.svg" alt="">
+            <img (click) = "showInfor()" [src]=" check == false ? '../../../assets/ICON/IconAppChat/5.svg' : '../../../assets/ICON/IconAppChat/6.svg'">
             <img src="../../../assets/ICON/IconAppChat/2.svg" alt="">
         </div>
     </div>
     <div class="body-right">
         <div class="massage_text">
-
+           
         </div>
-        <div class="infor">
+        <div class="infor" [hidden]= "check">
             <app-infor-box></app-infor-box>
+        </div>
+        <div class="type">
+            <app-type-text></app-type-text>
         </div>
     </div>
 </div>

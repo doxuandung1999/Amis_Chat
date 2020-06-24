@@ -1,0 +1,67 @@
+p{
+    padding: 0;
+    margin: 0;
+}
+.type-bot{
+    position: relative;
+    padding-left: 30px;
+    padding-right: 26px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+.icon{
+    width: 172px;
+    height: 61px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+#buzz{
+    background-color: #f86060;
+    border-radius: 3px;
+    width: 43px;
+    height: 20px;
+    overflow: hidden;
+    text-align: center;
+    font-size: 13px;
+    font-weight: 500;
+    color: #ffffff;
+}
+.icon img{
+    margin-right: 15px;
+}
+#tag{
+    color: #cccccc;
+    width: 24px;
+    height: 24px;
+}
+#picture{
+    width: 24px;
+    height: 24px;
+}
+.send{
+    background-color: #ffffff;
+    border-radius: 7.5px;
+    border: 1px solid #e0e0e0;
+    width: 592px;
+    height: 39px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: relative;
+}
+#text{
+    border: none;
+    width: 520px;
+    height: 39px;
+    outline: none;
+}
+.send img{
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    right: 10px;
+}

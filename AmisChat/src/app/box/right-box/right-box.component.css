@@ -5,6 +5,7 @@ p{
 .right{
     width: 1048px;
     height: 712px;
+    position: relative;
 }
 .head-right{
     width: 1048px;
@@ -41,6 +42,7 @@ p{
 }
 .option img{
     margin-left: 12px;
+    cursor: pointer;
 }
 .body-right{
     width: 1048px;
@@ -48,7 +50,7 @@ p{
     position: relative;
 }
 .massage_text{
-    width: 788px;
+    width: auto;
     height: 647px;
     float: left;
 }
@@ -57,4 +59,12 @@ p{
     width: 260px;
     height: 647px;
     float: right;
+}
+.type{
+    background-color: #f8f8f8;
+    width: 788px;
+    height: 61px;
+    position: absolute;
+    bottom: 0;
+   
 }
