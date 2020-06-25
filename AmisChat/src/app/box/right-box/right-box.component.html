@@ -23,7 +23,7 @@
         <div class="infor" [hidden]= "check">
             <app-infor-box></app-infor-box>
         </div>
-        <div class="type">
+        <div class="type" [style.width] = "check == false ? '788px' : '100%'">
             <app-type-text></app-type-text>
         </div>
     </div>
